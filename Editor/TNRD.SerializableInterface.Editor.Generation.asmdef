@@ -1,0 +1,20 @@
+{
+    "name": "TNRD.SerializableInterface.Editor.Generation",
+    "rootNamespace": "TNRD.SerializableInterface.Generation",
+    "references": [
+        "TNRD.SerializableInterface",
+        "TNRD.SerializableInterface.Generation",
+        "Unity.Settings.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
