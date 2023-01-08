@@ -12,25 +12,14 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v3
         with:
-          node-version: 'lts/*'
-      - name: Install dependencies
-        run: >
-          npm install --save false
-          semantic-release 
-          @semantic-release/changelog 
-          @semantic-release/commit-analyzer 
-          @semantic-release/git 
-          @semantic-release/github 
-          @semantic-release/npm 
-          @semantic-release/release-notes-generator 
-          conventional-changelog-conventionalcommits
-      - name: Release
+          extra_plugins: |
+            @semantic-release/changelog 
+            @semantic-release/git
+            conventional-changelog-conventionalcommits
         env:
-          NODE_ENV: 'development'
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_REGISTRY: 'https://npm.pkg.github.com/@Thundernerd'
-        run: npx semantic-release
