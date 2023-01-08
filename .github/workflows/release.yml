@@ -18,7 +18,7 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: >
-          npm install --save false --production=false
+          npm install --save false
           semantic-release 
           @semantic-release/changelog 
           @semantic-release/commit-analyzer 
@@ -29,6 +29,7 @@ jobs:
           conventional-changelog-conventionalcommits
       - name: Release
         env:
+          NODE_ENV: 'development'
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_REGISTRY: 'https://npm.pkg.github.com/@Thundernerd'
