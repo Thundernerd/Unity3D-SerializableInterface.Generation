@@ -1,3 +1,15 @@
+## [1.1.1](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/compare/v1.1.0...v1.1.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* fixed the description in the package.json ([6f80297](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/6f80297be75d3473ea68cdf2fea364e7fad9b768))
+
+
+### Documentation
+
+* **README:** updated docs with generation example ([dd50ef4](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/dd50ef48a160bdd8fa76c5bf753c45e934bf8b87))
+
 ## [1.1.0](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/compare/v1.0.0...v1.1.0) (2023-01-09)
 
 
