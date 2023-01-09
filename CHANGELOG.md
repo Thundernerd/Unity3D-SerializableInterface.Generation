@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/compare/v1.0.0...v1.1.0) (2023-01-09)
+
+
+### Features
+
+* added SerializableInterface attribute ([73b8406](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/73b8406b08b942d260034adf7ee69dbca19364f9))
+
+
+### Documentation
+
+* **README:** updated readme ([2c8952a](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/2c8952a44c134761bed0ba0a01423d98dbe89311))
+
 ## 1.0.0 (2023-01-09)
 
 
