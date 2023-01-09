@@ -1,3 +1,23 @@
+## 1.0.0 (2023-01-09)
+
+
+### Features
+
+* added initial version ([48fadc6](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/48fadc602bcc5ea9547047e9adb2af593520902a))
+
+
+### Bug Fixes
+
+* another attempt at preventing to install dependencies ([1d3fc1e](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/1d3fc1ee3d0869fd39e2a8dec0deb2d239ae79df))
+* ignore production install ([b4e27ef](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/b4e27ef2d242575d8333c73b421fb0321423dd6b))
+
+
+### Refactors
+
+* updated workflow files ([4363b84](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/4363b8466c1cb8f612d3fdd347246b90caba1c78))
+* **workflow:** changed the order of the steps ([70ea8e4](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/70ea8e4477fb92a4288a9ed6b8f3eac9a58ca299))
+* **workflow:** using Semantic Release action ([7c7111b](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/7c7111b1c56bd40e55d8e884f0a45aa3519b177c))
+
 ### [1.12.1](https://github.com/Thundernerd/Unity3D-SerializableInterface/compare/v1.12.0...v1.12.1) (2022-09-10)
 
 
