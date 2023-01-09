@@ -14,7 +14,7 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: >
-          npm install --save false
+          npm install -g --save false
           semantic-release 
           @semantic-release/changelog 
           @semantic-release/commit-analyzer 
