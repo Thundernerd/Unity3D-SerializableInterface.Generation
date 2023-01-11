@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/compare/v1.1.1...v1.1.2) (2023-01-11)
+
+
+### Bug Fixes
+
+* updated Generator plugin to fix generating return values ([e8375cc](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/commit/e8375cc23040215f8229ff41b4d36992c2d9dd05))
+
 ## [1.1.1](https://github.com/Thundernerd/Unity3D-SerializableInterface.Generation/compare/v1.1.0...v1.1.1) (2023-01-09)
 
 
